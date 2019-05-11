@@ -372,7 +372,6 @@ footer {
         color: #fff;
         font-weight: 900;
         font-size: 5em;
-        text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
     }
@@ -631,6 +630,7 @@ footer {
 */
 
 #projects {
+  display: none;
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -729,6 +729,7 @@ footer {
 */
 
 #contact {
+  display: none;
     padding: 50px 15px;
     background: $base-color;
     text-align: center;
