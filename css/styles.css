@@ -234,6 +234,36 @@ footer {
   color: #0077b5
 }
 
+/* Tooltip container */
+.info-link {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.info-link .info-link-tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 12px;
+
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -77px;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.info-link:hover .info-link-tooltiptext {
+  visibility: visible;
+}
+
 .btn-rounded-white {
   display: inline-block;
   color: #fff;
