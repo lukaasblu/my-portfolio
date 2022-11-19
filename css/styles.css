@@ -567,12 +567,26 @@ footer {
   float: left
 }
 
+.project-image img {
+  width: 300px;
+  height: 200px;
+}
+
 .project-info {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 300px;
-  padding: 15px
+  padding: 10px;
+}
+
+#todos-react-project {
+  width: 67%;
 }
 
 .project-info h3 {
